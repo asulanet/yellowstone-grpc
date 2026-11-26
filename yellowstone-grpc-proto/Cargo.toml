@@ -1,6 +1,6 @@
 [package]
 name = "laserstream-core-proto"
-version = "0.0.0"
+version = "14.0.0"
 authors = { workspace = true }
 edition = { workspace = true }
 description = "Yellowstone gRPC Geyser Protobuf Definitions"
@@ -55,7 +55,7 @@ solana-transaction = { workspace = true, features = ["blake3"] }
 
 [build-dependencies]
 anyhow = { workspace = true }
-protobuf-src = { workspace = true }
+protoc-bin-vendored = { workspace = true }
 tonic-build = { workspace = true }
 tonic-prost-build = { workspace = true }
 

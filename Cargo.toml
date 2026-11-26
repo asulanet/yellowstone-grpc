@@ -52,7 +52,7 @@ prost = "0.14.0"
 prost-types = "0.14.0"
 siphasher = "1"
 prost_011 = { package = "prost", version = "^0.11.9" }
-protobuf-src = "1.1.0"
+protoc-bin-vendored = "3.2.0"
 serde = "1.0.145"
 serde_json = "1.0.86"
 solana-account = "5.0.0"
@@ -83,8 +83,8 @@ tonic-prost-build = "0.14.0"
 tonic-health = "0.14.0"
 vergen = "9"
 wincode = "0.6.3"
-yellowstone-grpc-client = { path = "yellowstone-grpc-client", version = "0.0.0", package = "laserstream-core-client" }
-yellowstone-grpc-proto = { path = "yellowstone-grpc-proto", version = "0.0.0", package = "laserstream-core-proto", default-features = false }
+yellowstone-grpc-client = { path = "yellowstone-grpc-client", version = "14.0.0", package = "laserstream-core-client" }
+yellowstone-grpc-proto = { path = "yellowstone-grpc-proto", version = "14.0.0", package = "laserstream-core-proto", default-features = false }
 
 [workspace.lints.clippy]
 clone_on_ref_ptr = "deny"
